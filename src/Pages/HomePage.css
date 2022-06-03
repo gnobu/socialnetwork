@@ -1,0 +1,5 @@
+.homePage {
+    display: grid;
+    grid-template-columns: 2fr 5fr 4fr;
+    height: 100vh;
+}
