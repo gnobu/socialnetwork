@@ -1,5 +1,7 @@
+
 .landingPage {
     display: grid;
     grid-template-columns: 6fr 4fr;
     height: 100vh;
+    background-color: white;
 }

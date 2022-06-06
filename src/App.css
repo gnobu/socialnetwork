@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --color-purple: #9900cc;
+    --color-purple-alpha: #9900ccaa;
+    --border-color: #ededed;
+}

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage';
 import HomePage from './Pages/HomePage';
 import ErrorPage from './Pages/ErrorPage';
+import './App.css';
 
 
 export default function App() {
