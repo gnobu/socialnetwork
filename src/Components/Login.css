@@ -1,0 +1,77 @@
+.formPage{
+    height: 100%;
+    padding:  0 1rem;
+    border-left: 1px solid rgb(179, 178, 178);
+}
+.formDiv{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 4.5rem;
+    height: auto;
+    padding: 1rem;
+    position: relative;
+    top: 30px;
+}
+
+.formBody{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    margin: 0;
+    position: relative;
+    top: 70px;
+}
+
+.formInput{
+    height: 2.5em;
+    width: 60%;
+    border-radius: 25px;
+    border: none;
+    padding: 0 1rem;
+    margin: 0.2rem;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 600;
+    background-color: rgba(187, 187, 187, 0.205);
+    color: black;
+}
+
+.formInput:focus{
+    outline: none;
+}
+
+.formBtn {
+    height: 2.5em;
+    width: 125px;
+    border-radius: 25px;
+    background-color: #9900CC;
+    color: white;
+    font: inherit;
+    font-weight: 600;
+    border: none;
+    margin: 0.2rem;
+    padding: 0 1rem;
+}
+
+.formBtn:hover {
+    cursor: pointer;
+    background-color: #ff70ff;
+    border: none;
+}
+
+.mg-l-2 {
+    margin-left: 2rem;
+}
+
+.signupForm {
+    display: block;
+}
+
+.loginForm {
+    display: none;
+}

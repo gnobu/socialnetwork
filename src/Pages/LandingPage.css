@@ -1,5 +1,5 @@
 .landingPage {
     display: grid;
     grid-template-columns: 6fr 4fr;
-    min-height: 100vh;
+    height: 100vh;
 }
