@@ -1,0 +1,21 @@
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.hero__title{
+    background: linear-gradient(45deg, #9900cc, #ff76ff);
+    color: transparent;
+    font-size: 4rem;
+    font-weight:700;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+a{
+    text-decoration: none;
+    color:rgb(172, 0, 172); ;
+}
