@@ -39,6 +39,9 @@ export default function Search() {
   return (
     <div className='div'>
       <input type='search' className='search-input' value={searchVal} onChange={setValue}/>
+      <ul>
+        
+      </ul>
     </div>
   )
 }
