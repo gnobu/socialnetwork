@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { AiFillLike } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import "./Timeline.css";
@@ -110,7 +110,7 @@ export default function Timeline() {
           </form>
         </div>
       </div>
-      <ul className='postcards'>
+      <ul className='no-list-style'>
         {timeline.map(post => {
           return (
             <li key={post.id}><PostCard info={post}/></li>
