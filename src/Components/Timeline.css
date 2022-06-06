@@ -1,0 +1,144 @@
+
+.timeline {
+    border-left: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    background: #FFFFFF;
+}
+
+.section__title {
+    padding: 0 5%;
+    margin: 1.5rem 0;
+}
+
+.new-post {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 0 5%;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.image-wrapper {
+    max-width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-pic {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.new__post {
+    width: 100%;
+    max-width: 900px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 1rem;
+    font-family: inherit;
+    color: rgb(135, 127, 142);
+}
+
+.new__post::-webkit-scrollbar {
+    width: 5px;
+}
+
+.new__post::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px var(--border-color);
+}
+
+.new__post::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgb(135, 127, 142);
+}
+
+.text-count {
+    font-size: .9rem;
+    color: rgb(135, 127, 142);
+}
+.text-count.safe {
+    color: #40d75c;
+}
+.text-count.unsafe {
+    color: #d7405e;
+}
+
+.post__action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+    margin-top: .5rem;
+}
+
+.post-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-purple);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: inherit;
+
+    transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+.post-btn:hover {
+    background-color: var(--color-purple-alpha);
+}
+
+.postcards {
+    list-style: none;
+}
+
+.post-card {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    padding: .5rem 5% 0;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.post-wrapper {
+    padding: .5rem 0;
+}
+
+.post-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.author > span {
+    font-weight: 400;
+    font-size: .8em;
+    color: grey;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.likes > p {
+    font-size: .9rem;
+}
+
+.like-btn {
+    border: none;
+    background: transparent;
+}
+.like-btn:hover {
+    cursor: pointer;
+}
+
+.date-time {
+    font-size: .8rem;
+}
