@@ -11,7 +11,7 @@
 }
 
 .logo {
-    width: 4.5rem;
+    width: 6rem;
     height: auto;
     padding: 1rem;
     position: relative;
@@ -28,7 +28,7 @@
 }
 
 .formInput{
-    height: 2.5em;
+    height: 2.2em;
     width: 60%;
     border-radius: 25px;
     border: none;
@@ -36,7 +36,7 @@
     margin: 0.2rem;
     font-size: inherit;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     background-color: rgba(187, 187, 187, 0.205);
     color: black;
 }
@@ -46,7 +46,7 @@
 }
 
 .formBtn {
-    height: 2.5em;
+    height: 2.2em;
     width: 125px;
     border-radius: 25px;
     background-color: #9900CC;

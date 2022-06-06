@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Login.css';
 import { FaArrowRight } from "react-icons/fa";
 
@@ -13,12 +13,23 @@ function Login() {
     let uemail = email.current.value
     let pass = password.current.value
 
-    if(!localStorage.getItem('users')) {
-      const newInput = document.createElement('input')
-      newInput.innerHTML = `<input className='formInput' type="email" placeholder='Email' ref={email} />`
-      const form = document.querySelector('#email')
-      form.append(newInput)
+    async function getUserData() {
+      const url = './api.json'
+      const req = await fetch(url)
+      if (req.ok) {
+        const res = req.json()
+        console.log(res)
+      }
     }
+    useEffect(() => {getUserData(url)})
+
+
+    // if(!localStorage.getItem('users')) {
+    //   const newInput = document.createElement('input')
+    //   newInput.innerHTML = `<input className='formInput' type="email" placeholder='Email' ref={email} />`
+    //   const form = document.querySelector('#email')
+    //   form.append(newInput)
+    // }
   }
 
   return (
