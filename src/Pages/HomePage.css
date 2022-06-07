@@ -1,6 +1,6 @@
 
 .homePage {
     display: grid;
-    grid-template-columns: 2fr 5fr 4fr;
+    grid-template-columns: 2fr 4fr 3fr;
     background-color: #ffffff;
 }

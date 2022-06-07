@@ -95,7 +95,7 @@ export default function Timeline() {
 
   return (
     <div className='timeline'>
-      <div className="sticky-top">
+      <div className="sticky-top timeline__top">
         <h2 className='section__title'>Timeline</h2>
         <div className='new-post'>
           <div className="image-wrapper">
@@ -154,12 +154,12 @@ function PostCard(props) {
   return (
       <div className='post-card'>
         <div className="image-wrapper">
-          <Link to={`/home/${info.username}`}>
+          <Link to={`/user/${info.username}`}>
             <img src={info.pic} alt="author's profile pic" className='profile-pic' />
           </Link>
         </div>
         <div className='post-wrapper'>
-          <Link to={`/home/${info.username}`}>
+          <Link to={`/user/${info.username}`}>
             <h3 className='author'>{info.author}<span>@{info.username}</span></h3>
           </Link>
           <div className='body'>{info.content}</div>

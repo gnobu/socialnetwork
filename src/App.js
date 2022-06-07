@@ -11,8 +11,7 @@ export default function App() {
     <BrowserRouter >
     <Routes>
       <Route path='/' element={<LandingPage />} /> {/* Landing page Route */}
-      <Route path='/home' element={<HomePage />} /> {/* Main page Route */}
-      <Route path='/home/:user' element={<HomePage />} /> {/* other users page Route */}
+      <Route path='/user/:username' element={<HomePage />} /> {/* User's page Route */}
       <Route path='*' element={<ErrorPage />} /> {/* Error page Route */}
     </Routes>
     </BrowserRouter >

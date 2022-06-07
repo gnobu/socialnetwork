@@ -37,8 +37,18 @@ export default function Search() {
   }, [searchVal])
 
   return (
-    <div className='div'>
-      <input type='search' className='search-input' value={searchVal} onChange={setValue}/>
+    <div className='searchSection'>
+      <div className="sticky-top searchSection__top">
+        <img className='logo' src='/logo.png' alt='logo' />
+        <h2 className='section__title'>Search for a friend or find closest connection with a required skill.</h2>
+        <div className="searchAction">
+          <select className='searchInput select' name='searchType'>
+            <option value='username'>username</option>
+            <option value='skill'>skill</option>
+          </select>
+          <input type='search' className='searchInput input' value={searchVal} onChange={setValue}/>
+        </div>
+      </div>
       <ul>
         
       </ul>
