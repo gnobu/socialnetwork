@@ -1,14 +1,15 @@
 .formPage{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6rem;
 
     padding: 5%;
     border-left: 2px solid var(--border-color);
 }
 
 .logo {
-    width: 5rem;
+    margin-top: 4rem;
+    width: 6rem;
 }
 
 .mg-l-2 {

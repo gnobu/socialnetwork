@@ -65,7 +65,7 @@ function Login(props) {
 
   return (
     <div className='formPage'>
-      <img className='logo' src='./logo.png' alt='logo' />
+      <img className='logo' src='/logo.png' alt='logo' />
       <div className='formDiv'>
         <h2 className='mg-l-2'>Login or Get started!</h2>
         <form className='formBody' onSubmit={continueForm}>
