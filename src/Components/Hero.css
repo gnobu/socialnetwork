@@ -1,5 +1,6 @@
 
 .hero{
+    background: url(/public/back.jpg); 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +9,7 @@
 }
 
 .hero__title{
-    background: linear-gradient(45deg, #9900cc, #ff76ff);
+    background: linear-gradient(145deg, #9900cc, #21005e, #9900cc);
     color: transparent;
     font-size: 4rem;
     font-weight:700;
