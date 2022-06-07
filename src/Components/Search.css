@@ -34,13 +34,14 @@
 
 .searchInput.select {
     background-color: var(--color-purple);
-    color: #ffffff;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     transition: background-color 250ms;
+    color: #ffffff;
+    font-weight: 500;
 }
 .searchInput.select:hover {
-    background-color: var(--color-light-purple);
+    /* background-color: var(--color-light-purple); */
     color: #000000;
     cursor: pointer;
 }

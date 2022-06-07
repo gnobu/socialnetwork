@@ -33,7 +33,7 @@
 
 .profile-pic {
     height: 100%;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -91,10 +91,10 @@
     font-weight: 600;
     font-size: inherit;
 
-    transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
+    transition: color 250ms, background-color 250ms;
 }
 .post-btn:hover {
-    background-color: var(--color-light-purple);
+    /* background-color: var(--color-light-purple); */
     color: #000000;
 }
 
