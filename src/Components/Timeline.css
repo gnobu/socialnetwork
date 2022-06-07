@@ -92,10 +92,11 @@
     transition: opacity 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 .post-btn:hover {
-    background-color: var(--color-purple-alpha);
+    background-color: var(--color-light-purple);
+    color: #000000;
 }
 
-.postcards {
+.no-list-style {
     list-style: none;
 }
 
