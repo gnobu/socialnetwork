@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './Login.css';
 import { AiOutlineRight } from "react-icons/ai";
 
@@ -22,7 +22,7 @@ function Login(props) {
       password: 'password'
     },
     {
-      username: 'AKfour7',
+      username: 'Akfour7',
       password: 'password'
     },
     {
@@ -52,6 +52,15 @@ function Login(props) {
     } else {
       setProceed('signup');
     }
+    useEffect(() => {getUserData(url)})
+
+
+    // if(!localStorage.getItem('users')) {
+    //   const newInput = document.createElement('input')
+    //   newInput.innerHTML = `<input className='formInput' type="email" placeholder='Email' ref={email} />`
+    //   const form = document.querySelector('#email')
+    //   form.append(newInput)
+    // }
   }
 
   return (
